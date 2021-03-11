@@ -1,0 +1,154 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+* {
+  box-sizing: border-box;
+}
+
+input.input-color {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1 px 0 0 #fff !important;
+}
+
+input.input-color + label {
+  color: #ffffff !important;
+}
+
+input.input-color:focus {
+  border-bottom: 1px solid #ffeb3b !important;
+  box-shadow: 0 1 px 0 0 #ffeb3b !important;
+}
+
+input.input-color:focus + label {
+  color: #ffeb3b !important;
+}
+.wr {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: url(../src/images/background_mivida.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  opacity: 0.9;
+}
+
+.Navbar {
+  height: 130px;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+.logo {
+  height: 130px;
+  background: url(../src/images/mivida_logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  align-items: center;
+}
+
+.links {
+  font-family: 'Tenor Sans', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: rgb(186, 147, 94);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(250, 200, 132);
+  font-weight: 650;
+}
+
+.bl1 {
+  background: url(../src/images/block1_example.jpg);
+}
+
+.block h1 {
+  font-family: 'Tenor Sans', sans-serif;
+  margin-left: 50px;
+  color: rgb(186, 147, 94);
+}
+
+.bl2 {
+  background: url(../src/images/block2_example.jpg);
+}
+
+.bl3 {
+  background: url(../src/images/block3_example.jpg);
+}
+
+.bl4 {
+  background: url(../src/images/block4_example.jpg);
+}
+
+.bl5 {
+  background-color: #0c323e;
+}
+
+.block {
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  border-top: rgb(186, 147, 94) 2px solid;
+}
+
+.frontText {
+  width: 250px;
+  color: white;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 20vh;
+  margin-left: 20vh;
+}
+
+.buttonScroll {
+  padding: 3px;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 0.8rem;
+  line-height: 0.7;
+  color: rgb(250, 200, 132);
+  font-weight: 450;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 1000;
+  height: 60px;
+  width: 60px;
+  background: url(../src/images/logo_small.png);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.buttonScroll:hover {
+  opacity: 1;
+  border: rgb(250, 200, 132) 1px solid;
+  transition: all 0.5s ease-out;
+}
