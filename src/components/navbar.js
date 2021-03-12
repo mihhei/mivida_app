@@ -1,36 +1,21 @@
-import React from 'react';
-import { scroller } from 'react-scroll';
+import React, { useState, useEffect } from 'react';
+import { NavbarLarge } from './navbarlarge';
+import { NavbarMedium } from './navbarmedium';
 
 export const Navbar = () => {
-  const scrollToSection = (section, long) => {
-    scroller.scrollTo(section, {
-      duration: long || 2000,
-      delay: 0,
-      smooth: 'easeInOutQuart',
-    });
+  const [width, setWidth] = useState(document.documentElement.clientWidth);
+  useEffect(() => {
+    window.addEventListener('resize', handleWidth);
+    return () => window.removeEventListener('resize', handleWidth);
+  }, []);
+  const handleWidth = () => {
+    setWidth(document.documentElement.clientWidth);
   };
 
   return (
-    <div className="Navbar">
-      <div className="logo"></div>
-      <div className="links">
-        <div className="link link1">Etusivu</div>
-        <div className="link link2" onClick={scrollToSection.bind(null, 'bl1', 1500)}>
-          Meistä
-        </div>
-        <div className="link link3" onClick={scrollToSection.bind(null, 'bl2', 2000)}>
-          Palvelut
-        </div>
-        <div className="link link4" onClick={scrollToSection.bind(null, 'bl3', 2500)}>
-          Tuotteet
-        </div>
-        <div className="link link5" onClick={scrollToSection.bind(null, 'bl4', 3000)}>
-          Lahjakortti
-        </div>
-        <div className="link link6" onClick={scrollToSection.bind(null, 'bl5', 3500)}>
-          Yhteystiedot
-        </div>
-      </div>
-    </div>
+    <>
+      {width > 780 && <NavbarLarge />}
+      {width <= 780 && <NavbarMedium />}
+    </>
   );
 };
