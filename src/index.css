@@ -177,6 +177,17 @@ input.input-color:focus + label {
     padding-right: 0px;
     padding-left: 20px;
   }
+  .wrapper {
+    background-position: center;
+    background-position-x: -150px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 780px) {
+  .wrapper {
+    background-position: center;
+    background-position-x: -250px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -186,10 +197,10 @@ input.input-color:focus + label {
   }
   .frontText {
     width: 200px;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .wrapper {
     background-position: center;
-    background-position-x: -200px;
+    background-position-x: -450px;
   }
 }
