@@ -177,16 +177,11 @@ input.input-color:focus + label {
     padding-right: 0px;
     padding-left: 20px;
   }
-  .wrapper {
-    background-position: center;
-    background-position-x: -150px;
-  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 780px) {
   .wrapper {
     background-position: center;
-    background-position-x: -250px;
   }
 }
 
@@ -201,6 +196,6 @@ input.input-color:focus + label {
   }
   .wrapper {
     background-position: center;
-    background-position-x: -450px;
+    background-position-x: -350px;
   }
 }
