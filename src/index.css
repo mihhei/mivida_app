@@ -168,10 +168,47 @@ input.input-color:focus + label {
 }
 
 .menu-btn {
-  margin-right: 30px;
+  padding: 5px;
+  padding-bottom: 0px;
+  margin-right: 25px;
   cursor: pointer;
 }
 
+.selected {
+  border: rgb(250, 200, 132) 1px solid;
+  border-radius: 5px;
+  transition: all 0.5s ease-out;
+}
+.selected .btn-line {
+  background-color: rgb(250, 200, 132);
+  transition: all 0.5s ease-out;
+}
+
+.slidingMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  min-width: 200px;
+  background: rgb(12, 50, 62);
+  opacity: 0;
+}
+
+.slidingMenu .links {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.show {
+  opacity: 1;
+  background: rgba(12, 50, 62, 0.85);
+  transition: all 1s ease-out;
+}
 @media screen and (min-width: 780px) and (max-width: 900px) {
   .links {
     padding-right: 0px;
