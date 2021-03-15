@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mivida_app/static/css/main.965eca8e.chunk.css",
-    "main.js": "/mivida_app/static/js/main.dd307feb.chunk.js",
-    "main.js.map": "/mivida_app/static/js/main.dd307feb.chunk.js.map",
+    "main.js": "/mivida_app/static/js/main.0c1e294a.chunk.js",
+    "main.js.map": "/mivida_app/static/js/main.0c1e294a.chunk.js.map",
     "runtime-main.js": "/mivida_app/static/js/runtime-main.5ae6e123.js",
     "runtime-main.js.map": "/mivida_app/static/js/runtime-main.5ae6e123.js.map",
     "static/css/2.f7c53027.chunk.css": "/mivida_app/static/css/2.f7c53027.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.f7c53027.chunk.css",
     "static/js/2.3d45123a.chunk.js",
     "static/css/main.965eca8e.chunk.css",
-    "static/js/main.dd307feb.chunk.js"
+    "static/js/main.0c1e294a.chunk.js"
   ]
 }
