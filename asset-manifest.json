@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/mivida_app/static/css/main.9f92973b.chunk.css",
-    "main.js": "/mivida_app/static/js/main.9ba8bdc4.chunk.js",
-    "main.js.map": "/mivida_app/static/js/main.9ba8bdc4.chunk.js.map",
+    "main.css": "/mivida_app/static/css/main.965eca8e.chunk.css",
+    "main.js": "/mivida_app/static/js/main.dd307feb.chunk.js",
+    "main.js.map": "/mivida_app/static/js/main.dd307feb.chunk.js.map",
     "runtime-main.js": "/mivida_app/static/js/runtime-main.5ae6e123.js",
     "runtime-main.js.map": "/mivida_app/static/js/runtime-main.5ae6e123.js.map",
     "static/css/2.f7c53027.chunk.css": "/mivida_app/static/css/2.f7c53027.chunk.css",
-    "static/js/2.443aa0bf.chunk.js": "/mivida_app/static/js/2.443aa0bf.chunk.js",
-    "static/js/2.443aa0bf.chunk.js.map": "/mivida_app/static/js/2.443aa0bf.chunk.js.map",
+    "static/js/2.3d45123a.chunk.js": "/mivida_app/static/js/2.3d45123a.chunk.js",
+    "static/js/2.3d45123a.chunk.js.map": "/mivida_app/static/js/2.3d45123a.chunk.js.map",
     "static/js/3.ea4150e8.chunk.js": "/mivida_app/static/js/3.ea4150e8.chunk.js",
     "static/js/3.ea4150e8.chunk.js.map": "/mivida_app/static/js/3.ea4150e8.chunk.js.map",
     "index.html": "/mivida_app/index.html",
     "static/css/2.f7c53027.chunk.css.map": "/mivida_app/static/css/2.f7c53027.chunk.css.map",
-    "static/css/main.9f92973b.chunk.css.map": "/mivida_app/static/css/main.9f92973b.chunk.css.map",
-    "static/js/2.443aa0bf.chunk.js.LICENSE.txt": "/mivida_app/static/js/2.443aa0bf.chunk.js.LICENSE.txt",
+    "static/css/main.965eca8e.chunk.css.map": "/mivida_app/static/css/main.965eca8e.chunk.css.map",
+    "static/js/2.3d45123a.chunk.js.LICENSE.txt": "/mivida_app/static/js/2.3d45123a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mivida_app/static/media/mivida_logo.8715d7fb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5ae6e123.js",
     "static/css/2.f7c53027.chunk.css",
-    "static/js/2.443aa0bf.chunk.js",
-    "static/css/main.9f92973b.chunk.css",
-    "static/js/main.9ba8bdc4.chunk.js"
+    "static/js/2.3d45123a.chunk.js",
+    "static/css/main.965eca8e.chunk.css",
+    "static/js/main.dd307feb.chunk.js"
   ]
 }
