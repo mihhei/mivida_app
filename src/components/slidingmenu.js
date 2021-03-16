@@ -1,21 +1,23 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Links } from './links';
 
-export const SlidingMenu = () => {
+export const SlidingMenu = ({ onScroll }) => {
   const [show, setShow] = useState('');
+
+  const handleScroll = useCallback(() => {
+    if (window.scrollY > 100) {
+      setShow('');
+      onScroll();
+    } else {
+      setShow(' show');
+    }
+  }, [onScroll]);
 
   useEffect(() => {
     setShow(' show');
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-  const handleScroll = () => {
-    if (window.scrollY > 100) {
-      setShow('');
-    } else {
-      setShow(' show');
-    }
-  };
+  }, [handleScroll]);
 
   return (
     <>
